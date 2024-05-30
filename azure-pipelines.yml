@@ -27,7 +27,7 @@ stages:
     # Target Directory: $(Build.ArtifactStagingDirectory)
     - task: CopyFiles@2
       inputs:
-        SourceFolder: '$(System.DefaultWorkingDirectory)/SHIJU_ATOS'
+        SourceFolder: '$(System.DefaultWorkingDirectory)/TF_CODE'
         Contents: '**'
         TargetFolder: '$(Build.ArtifactStagingDirectory)'
         OverWrite: true
