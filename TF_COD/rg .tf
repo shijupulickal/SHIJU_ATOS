@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "example" {
-  name     = "HR123"
+  name     = "HR1234"
   location = "West Europe"
 }
