@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "example" {
-  name     = "atos123"
+  name     = "ardagh"
   location = "West Europe"
 }
